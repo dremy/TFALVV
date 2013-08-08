@@ -1,0 +1,477 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+	font-family:Arial, Helvetica, Sans-serif;
+}
+
+/*COLORS*/
+
+/*navy*/
+.navy {
+color:#0D556E;
+}
+
+.navy-bg {
+background:#0D556E;
+}
+
+/*red*/
+.red {
+color:#A74D28;
+}
+
+span.red a{
+color:#A74D28;
+font-weight:bold;
+text-decoration:none;
+}
+
+span.red a:hover{
+text-decoration:underline;
+}
+
+.red-bg {
+background:#A74D28;
+}
+
+/*hyper blue*/
+.blue {
+color:#19BBE9;
+}
+
+span.blue {
+text-decoration:underline;
+}
+
+.blue-bg {
+background:#19BBE9;
+}
+
+.view-staff .views-row {
+margin:0px 10px 0px 0px;
+text-align:center;
+}
+
+.view-staff .views-field-name a{
+text-decoration:none;
+color: #0D556E;
+}
+
+.view-organizations .views-row{
+border-top: 1px solid #ccc;
+padding: 15px;
+}
+
+.view-organizations .views-row.views-row-even{
+background:#efefef;
+}
+
+.views-front article.node-blog h2.node-title a{
+color:#0D556E;
+text-decoration:none;
+font-size:20px;
+}
+
+.block-views .more-link {
+clear:both;
+}
+
+.front-block {
+float: left;
+margin: 5px 5px 60px;
+padding: 10px;
+border-radius: 8px;
+box-shadow: #ccc 0px 6px 0px 0px;
+width:30%;
+}
+
+.front-block h3 {
+text-transform: uppercase;
+color: #0D556E;
+font-family: Arial Black;
+font-size: 18px;
+}
+
+/*ZONE HEADER*/
+#zone-header {
+padding-bottom:10px;
+}
+
+#region-header-first{
+background:url(img/highlight.png) no-repeat center center;
+}
+
+.front #region-header-first{
+height:330px;
+}
+
+#region-header-first{
+min-height:30px;
+padding-top:9px;
+}
+
+#region-header-second {
+min-height: 30px;
+padding-top:10px;
+}
+
+#zone-header-wrapper{
+background:url(img/bg_bl.gif);
+min-height:30px;
+}
+
+#zone-preface-wrapper {
+background:url(img/bg_bl.gif);
+min-height:100px;
+}
+/*ADD THIS*/
+#block-block-1{
+float:right;
+}
+
+/*ZONE PREFACE*/
+#region-preface-first, #region-preface-second, #region-preface-third {
+min-height:100px;
+position: relative;
+z-index: 3;
+background: white;
+}
+
+/*SEARCH PREFACE*/
+#region-preface-first #block-views-exp-node-search-index-page #edit-search-api-views-fulltext-wrapper{
+width:90%;
+}
+
+#region-preface-first #block-views-exp-node-search-index-page .form-item #edit-search-api-views-fulltext{
+width: 100%;
+font-size: 22px;
+border-radius: 6px;
+border: 1px solid #ccc;
+color:#bbb;
+padding-left:40px;
+background:url(img/search.jpg) no-repeat left center;
+}
+
+#region-preface-first input#edit-submit-node-search-index{
+height: 40px;
+width: 70px;
+margin: 10px;
+}
+
+#region-preface-first .views-exposed-form .views-submit-button {
+padding:0px;
+}
+
+#zone-preface {
+min-height: 100px;
+background: white;
+box-shadow: #404040 0px 0px 25px 0px;
+position: relative;
+top: 30px;
+}
+
+/*ZONE CONTENT*/
+#zone-content-wrapper {
+box-shadow: #000 0px -20px 50px -30px;
+}
+
+#zone-content {
+position: relative;
+z-index: 3;
+background: white;
+padding-top:10px;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+}
+
+#region-content {
+border-left:1px solid #ccc;
+padding-left:15px;
+margin-left:0px;
+margin-right:0px;
+}
+
+/*.page-searching #region-content, .page-node-add #region-content{
+margin-left:0px;
+margin-right:0px;
+}*/
+
+/*NODE FORM*/
+
+.node-form input#edit-title{
+width:98%;
+font-size: 22px;
+border-radius: 6px;
+border: 1px solid #ccc !important;
+color: #555;
+}
+
+.node-form .field-type-image.form-wrapper, .node-form .field-name-field-documents, .node-form .field-type-addressfield.form-wrapper, .node-form .field-type-datetime.form-wrapper {
+border:1px solid #ccc;
+padding:10px;
+margin-bottom:10px;
+}
+
+/*.node-form .field-type-image.form-wrapper, .node-form .field-type-datetime.form-wrapper{
+opacity:0.3;
+}
+.node-form .field-type-image.form-wrapper:hover, .node-form .field-type-datetime.form-wrapper:hover{
+opacity:1.0;
+}*/
+
+.node-form .field-type-addressfield input, .node-form .field-type-addressfield select {
+border:1px solid #ccc;
+border-radius: 6px;
+}
+
+.node-form .field-type-addressfield input {
+font-size: 22px;
+}
+
+.node-form .field-type-addressfield select  {
+height:38px;
+}
+
+.node-form .field-type-datetime input.form-text{
+border-radius:4px;
+}
+
+.node-form div.autocomplete-deluxe-multiple{
+width:100%;
+border-radius:6px;
+}
+
+
+.node-form input.form-submit{
+width: 80px;
+height: 40px;
+}
+
+#node_resource_form_group_tags #edit-field-grade-s-, #node_resource_form_group_tags #edit-field-subject-s-, #node_resource_form_group_tags #edit-field-resource-{
+float:left;
+width:30%;
+}
+
+#node_resource_form_group_tags #edit-field-tags{
+clear:both;
+}
+
+.form-checkboxes .form-type-checkbox {
+padding:5px;
+}
+
+/*MENU - SECONDARY*/
+#region-user-second .block-menu-secondary {
+float:none;
+padding-bottom:10px;
+}
+
+#region-user-second .block-menu-secondary ul.menu li{
+list-style:none;
+float:none;
+clear:both;
+width:100%
+}
+
+#region-user-second .block-menu-secondary ul.menu li a:hover{
+background:#eee;
+}
+
+#region-user-second .block-menu-secondary ul.menu li a{
+color:#555555;
+padding:6px;
+display:block;
+text-decoration:none;
+background:#ffffff;
+border-top:1px solid #ccc;
+font-size:20px;
+text-align:center;
+}
+
+/*MENU - MAIN*/
+/*#block-system-main-menu {
+
+}*/
+#block-superfish-1 select#superfish-1-select {
+width: 100%;
+margin: 10px 0px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 20px
+}
+
+#block-superfish-1 ul.menu li{
+list-style:none;
+float:none;
+clear:both;
+width:100%;
+padding: 10px;
+border-top: 1px solid #ccc;
+}
+
+#block-superfish-1 ul.menu li:hover{
+background:#eee;
+border-left: none;
+border-right: none;
+}
+
+#block-superfish-1 ul.menu li a{
+text-decoration:none;
+font-size:20px;
+width:100%;
+text-align:center;
+display:block;
+color:#555555;
+}
+
+/*SIDEBAR*/
+aside .block {
+margin-bottom:10px;
+padding-top:5px;
+}
+
+aside .block-facetapi ul li {
+list-style:none;
+}
+
+aside .block-facetapi ul li a{
+text-decoration: none;
+}
+
+aside .block h2.block-title, #zone-preface .block h2.block-title, #zone-content .block h2.block-title {
+text-transform:uppercase;
+color:#0D556E; /*navy*/
+font-family:Arial Black;
+}
+
+aside .block .views-row{
+padding:10px 0px;
+border-top:1px solid #ccc;
+min-height:30px;
+}
+
+/*VIEWS - MY MTLD */
+#region-preface-first .third{
+width:30%;
+}
+
+#region-preface-first .left-border {
+border-left:1px solid #ccc;
+padding-left:5px;
+}
+
+#region-preface-first .right-border {
+border-right:1px solid #ccc;
+padding-right:5px;
+}
+
+/*VIEWS - MTLD PICTURE*/
+#block-views-mtld-photo-block {
+float:right;
+z-index:1;
+}
+
+#block-views-mtld-photo-block .views-row {
+text-align:center;
+}
+
+#block-views-mtld-photo-block .views-field-name a{
+text-decoration:none;
+color:#000;
+}
+
+#block-views-mtld-photo-block .views-field-name a:hover{
+color:#0D556E; /*navy*/
+}
+
+
+/*VIEWS - GALLERIES*/
+
+#block-views-mtld-blocks-block-3 .views-row {
+float:left;
+width: 100px;
+text-align:center;
+height: 100px;
+margin-bottom: 10px;
+}
+
+#block-views-mtld-blocks-block-3 .views-field-title a{
+text-decoration:none;
+color:#000;
+}
+
+#block-views-mtld-blocks-block-3 .views-field-title a:hover{
+color:#0D556E; /*navy*/
+}
+
+#block-views-mtld-blocks-block-3 .views-field-field-gallery img:hover{
+opacity:0.7;
+}
+
+/*VIEWS - CALENDAR*/
+
+/*BLOCK - CALENDAR*/
+
+/*BLOCK - UPCOMING*/
+.calendar-listing a, .calendar-listing span a {
+color: white !important;
+text-decoration:none;
+}
+
+.calendar-listing a:hover, .calendar-listing span a:hover {
+text-decoration:underline;
+}
+
+.block .views-row .calendar-listing{
+padding: 5px;
+border-radius: 5px;
+margin:5px 0px;
+}
+
+
+/*BLOCK - CALENDAR LEGEND*/
+ul.legend-list li{
+list-style:none;
+}
+
+/*STUDENT LEADERSHIP - RED*/
+ul.legend-list .legend.studentleadership{
+background: #C33B21;
+width: 20px;
+height: 10px;
+float: left;
+margin: 4px;
+}
+
+.calendar-Student-Leadership{ 
+background:#C33B21 !important;
+}
+
+/*TEACHER LEADERSHIP - NAVY*/
+ul.legend-list .legend.teacherleadership{
+background: #004D6E;
+width: 20px;
+height: 10px;
+float: left;
+margin: 4px;
+}
+
+.calendar-Teacher-Leadership{
+background:#004D6E !important;
+}
+
+/*COMMUNITY EVENTS* - YELLOW*/
+ul.legend-list .legend.communityevents{
+background: #E8CF00;
+width: 20px;
+height: 10px;
+float: left;
+margin: 4px;
+}
+
+.calendar-Community-Events{
+background:#E8CF00 !important;
+}
+
+/*DIVERSITY & IDENTITY* - SMO

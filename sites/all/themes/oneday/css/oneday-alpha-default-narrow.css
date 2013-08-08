@@ -1,0 +1,325 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+.view-staff {
+min-height:150px;
+}
+
+.view-staff .views-row {
+float:left;
+}
+ 
+ form.contact-form .form-item.form-type-textfield {
+height:20px;
+margin:10px 0px;
+}
+
+form.contact-form .form-item.form-type-textarea textarea{
+border:1px solid #ccc;
+}
+
+form.contact-form label {
+float:left;
+width: 170px;
+}
+
+form.contact-form  input {
+width:60%;
+}
+
+
+/*VIEWS - HOME SLIDESHOW*/
+#block-views-slideshow-home-block .slide-information {
+float:left;
+margin-right:10px;
+width: 280px;
+margin-bottom: 10px;
+}
+
+/*VIEWS - HEADER SLIDESHOW*/
+.view-header-slideshow .views-slideshow-controls-bottom{
+position: absolute;
+margin-top: -10px;
+margin-left:10px;
+z-index:10;
+}
+
+.view-header-slideshow .views-field-field-slides {
+padding-top:1px;
+}
+
+.view-header-slideshow .views-field-title {
+margin-bottom:0px;
+}
+
+.view-header-slideshow .views-field-title span {
+font-size:50px;
+}
+
+/*Main Menu*/
+#qtip-0, #qtip-1 {
+width:700px;
+}
+
+#block-superfish-1  ul.menu li{
+list-style:none;
+float:left;
+width:130px;
+margin: 0px 5px 0px 0px;
+clear:none;
+padding: 10px;
+border-left: 1px solid #fff;
+border-bottom:none;
+border-top: 1px solid #fff;
+border-right: 1px solid #fff;
+}
+
+#block-superfish-1  ul.menu li:hover{
+background:#eee;
+border-left: 1px solid #ccc;
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+}
+
+#block-superfish-1  ul.menu ul li{
+background:#eee;
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom:1px solid #ccc;
+}
+
+#block-superfish-1  ul.menu ul li:hover{
+background:#fff;
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom:1px solid #ccc;
+border-radius:0px;
+}
+
+#block-superfish-1  ul.menu ul li.first{
+border-top:1px solid #ccc !important;
+}
+
+#block-superfish-1  ul.menu ul li.first:hover{
+border-top:1px solid #ccc !important;
+}
+
+form input.form-text{
+width:inherit;
+font-size:12px;
+}
+
+#block-superfish-1  ul.menu ul li a{
+font-size:16px;
+}
+
+/*Menu Mini Panels*/
+.qtip-light {
+border-left:solid 1px #ccc;
+border-right:solid 1px #ccc;
+border-bottom:solid 1px #ccc;
+border-top:solid 1px #eee;
+border-bottom-left-radius:6px;
+border-bottom-right-radius:6px;
+}
+
+.view-menu-slideshow .views-slideshow-controls-top {
+float:left;
+width:200px;
+margin-right:5px;
+}
+
+.view-menu-slideshow .views-slideshow-controls-top .views-field-title a {
+text-decoration:none;
+display:block;
+font-size:16px;
+padding-top:20px;
+padding-bottom:20px;
+border-bottom:1px solid #ccc;
+border-right:1px solid #ccc;
+color:#404040;
+}
+
+.view-menu-slideshow .views-slideshow-controls-top .views-field-title a:hover {
+border-right:1px solid #fff;
+background:#fff;
+color:#909090;
+}
+
+#views_slideshow_cycle_main_menu_slideshow-block {
+float:left;
+width:470px;
+}
+
+#views_slideshow_pager_field_item_top_menu_slideshow-block_2 .views-field-title a{
+border-bottom:none;
+}
+
+.view-menu-slideshow .views-field-field-sublinks {
+float:left;
+width:100px;
+min-height:100px;
+}
+.view-menu-slideshow .views-field-field-slides {
+float:left;
+width:150px;
+min-height:100px;
+}
+
+.view-menu-slideshow .views-field-field-sublinks ul li{
+list-style:none;
+}
+
+.view-menu-slideshow .views-field-field-sublinks ul li a, .view-menu-slideshow .views-field-field-sublinks ul li p{
+text-decoration:none;
+display:block;
+border-top:1px solid #ccc;
+padding-top:10px;
+padding-bottom:10px;
+font-size:12px;
+margin:0;
+}
+
+.view-menu-slideshow .views-field-field-slides img{
+border-left:solid 15px white;
+}
+
+/*USER*/
+
+		/*USER BLOCK*/
+/*#block-user-login  form .form-item-name, #block-user-login form  .form-item-pass {
+float:left;
+}*/
+
+#region-user-second .block-menu-secondary {
+float:right;
+padding-bottom:10px;
+}
+
+#region-user-second .block-menu-secondary ul.menu li{
+list-style:none;
+float:left;
+clear:none;
+width:inherit;
+}
+
+#region-user-second .block-menu-secondary ul.menu li:hover{
+}
+
+#region-user-second .block-menu-secondary ul.menu li a{
+color:#000000;
+padding:6px;
+display:block;
+text-decoration:none;
+background:#ffffff;
+border-top:none;
+border-bottom:1px solid #ccc;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+border-bottom-left-radius:6px;
+border-bottom-right-radius:6px;
+font-size:100%;
+text-align:center;
+}
+
+#region-user-second .block-menu-secondary ul.menu li a:hover{
+color:#0062A0;
+border-bottom:1px solid #aaa;
+border-left:1px solid #aaa;
+border-right:1px solid #aaa;
+background:#ffffff;
+}
+
+#region-user-first {
+padding-top:5px;
+}
+
+#block-user-login  form .form-item, #block-user-login  form .item-list, #block-user-login  form .form-actions {
+float:left;
+}
+
+#block-user-login  form > .form-item, .item-list, .form-actions {
+float:left;
+}
+
+/*#block-user-login  form .form-item {
+margin:0;
+}*/
+
+#block-user-login form .item-list {
+margin-right:5px;
+}
+
+#block-user-login form .item-list ul li {
+margin-left:0px;
+}
+
+#block-user-login form .form-actions {
+margin:0px;
+display:none;
+}
+
+#block-user-login form .form-actions input.form-submit {
+border:1px solid #ccc;
+height:30px;
+}
+
+#block-user-login form .form-item >  label, input.form-text {
+float:left;
+margin:0px 5px;
+}
+
+#block-user-login form .form-item input.form-text {
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+/*FBOAUTH*/
+#block-fboauth-login {
+clear:none;
+width:100px;
+float:left;
+text-align:left;
+}
+
+/*HEADER*/
+
+	/*REGION USER*/
+#zone-user-wrapper {
+background:#f9f9f9;
+border-bottom:1px solid #ccc;
+}
+	
+#region-postscript-fourth {
+margin-right:0px;
+}
+
+#zone-branding-wrapper {
+padding-top:20px;
+}
+
+/*VIEWS - HOME SLIDESHOW*/
+#block-views-slideshow-home-block .slide-information {
+float:left;
+margin-right:10px;
+width: 100%;
+margin-bottom: 10px;
+}
+
+/*SEARCH API*/
+#views-exposed-form-node-search-index-page #edit-search-api-views-fulltext-wrapper{
+padding-right:0px;
+}
+
+.views-secondary-pages #edit-search-api-views-fulltext{
+width:100%;
+}
+
+/*form.contact-form textarea, form.contact-form .form-type-textarea .grippie {*/
+

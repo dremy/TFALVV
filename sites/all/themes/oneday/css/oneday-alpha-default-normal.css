@@ -1,0 +1,62 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ 
+ /*VIEWS - HOME SLIDESHOW*/
+#block-views-slideshow-home-block .slide-information {
+float:left;
+margin-right:10px;
+width: 380px;
+margin-bottom: 10px;
+}
+ 
+.view-slideshow-home .views-slideshow-controls-bottom {
+position:absolute;
+top:250px;
+}
+
+.view-slideshow-home .views-slideshow-pager-field-item {
+float:left;
+text-indent: -9999px;
+width: 20px;
+height: 20px;
+background: white;
+margin-right: 10px;
+border-radius: 10px;
+}
+
+.view-slideshow-home .views_slideshow_pager_field_item.active {
+background: #B2BB1E !important;
+}
+
+/*MAIN MENU*/
+#qtip-0, #qtip-1 {
+width:700px;
+}
+
+#block-system-main-menu {
+width:700px;
+}
+
+/*SECONDARY MENU*/
+
+.block-header-slideshow-block {
+float:left;
+width:81%;
+}
+
+#region-header-first .block-menu {
+background: #fff;
+padding-left: 20px;
+padding-top: 10px;
+float: left;
+width: 16%;
+border-bottom-left-radius: 6px;
+border-top-left-radius: 6px;
+height: 257px;}
+
+#region-header-first .block-menu h2.block-title {
+text-transform: uppercase;
+color: #0D556E;
+font-family: Arial Black;
+}

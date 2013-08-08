@@ -1,0 +1,33 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+/*VIEWS - HOME SLIDESHOW*/
+#block-views-slideshow-home-block .slide-information {
+float:left;
+margin-right:10px;
+width: 45%;
+margin-bottom: 10px;
+}
+
+/*HEADER*/
+#block-user-login form .item-list {
+margin-right:10px;
+}
+
+#block-user-login form .form-item >  label, input.form-text {
+float:left;
+margin:0px 10px;
+}
+
+#block-user-login form .form-actions {
+margin:0px;
+display:block;
+}
+
+/*MAIN MENU*/
+#qtip-0 {
+width:700px;
+}
+
+#block-system-main-menu {
+width:700px;
+}
