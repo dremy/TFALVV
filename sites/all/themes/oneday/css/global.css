@@ -48,8 +48,12 @@ text-decoration:underline;
 background:#19BBE9;
 }
 
+#block-views-staff-block h2.block-title {
+padding-bottom:10px;
+}
+
 .view-staff .views-row {
-margin:0px 10px 0px 0px;
+margin:0px 10px 10px 10px;
 text-align:center;
 }
 
